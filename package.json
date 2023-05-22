@@ -1,0 +1,30 @@
+{
+  "name": "backend-study",
+  "version": "1.0.0",
+  "description": "This repository was created to improve my skills as a backend developer",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "dev": "nodemon src/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FredNeves95/backend-study.git"
+  },
+  "author": "Frederico Neves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FredNeves95/backend-study/issues"
+  },
+  "homepage": "https://github.com/FredNeves95/backend-study#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "uuidv4": "^6.2.13"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "nodemon": "^2.0.22"
+  }
+}
